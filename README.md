@@ -39,12 +39,12 @@ All data processing, cleaning, and analysis were done using SQL and are availabl
 
 ### Summary Of Analysis:
 #### Activity Findings:
-     1. Activity is primarily at the light level, but users still meet the recommended weekly minimum of 150 minutes. A trend emerges as activity decreases toward the end of the week across all activity levels.
-     2. A positive correlation exists between higher activity levels and increased calorie burn.
+ 1. Activity is primarily at the light level, but users still meet the recommended weekly minimum of 150 minutes. A trend emerges as activity decreases toward the end of the week across all activity levels.
+ 2. A positive correlation exists between higher activity levels and increased calorie burn.
 
 #### Steps Findings:
-    1. Users are achieving nearly 7,000 steps on average. However, there's a noticeable decline in the number of users tracking their steps, with non-trackers recording 
-    significantly fewer steps.
+1. Users are achieving nearly 7,000 steps on average. However, there's a noticeable decline in the number of users tracking their steps, with non-trackers recording 
+significantly fewer steps.
 
 
 

@@ -1,6 +1,5 @@
 # Bellabeat
-How Can a Wellness Technology
-Company Play It Smart?
+How Can a Wellness Technology Company Play It Smart?
 
 
 ## Introduction:
@@ -16,7 +15,13 @@ Bellabeat, a company specializing in high-tech health-focused smart devices for 
 
 4. Spring: A smart water bottle that tracks daily water intake using smart technology, ensuring users stay hydrated throughout the day. Connects to the Bellabeat App to track hydration levels.
 
-5. Bellabeat Membership: A subscription-based program offering personalized guidance on sleep, nutrition, health and beauty, and mindfulness based on users' goals and lifestyles.
+5. Bellabeat Membership: A subscription-based program offering personalized guidance on sleep, nutrition, health, and beauty, and mindfulness based on users' goals and lifestyles.
+
+### Business Task: 
+in this case study, I will answer the following questions:
+
+What are some trends in smart device usage?
+How can these trends help influence Bellabeat's marketing strategy?
 
 
 

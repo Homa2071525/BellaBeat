@@ -37,6 +37,13 @@ The ['FitBit Fitness Tracker Data'](https://www.kaggle.com/datasets/arashnic/fit
 ### Data Processing, Cleaning, and Analysis 
 All data processing, cleaning, and analysis were done using SQL and are available in the Bellabeat.sql script provided in this repository. Detailed comments are included throughout, documenting the thought processes and findings.
 
+### Summary Of Analysis:
+
+### Tableau Dashboard/Visualization
+
+### Recommendations: 
+
+
 
 
 

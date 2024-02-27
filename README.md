@@ -45,6 +45,16 @@ All data processing, cleaning, and analysis were done using SQL and are availabl
 #### Steps Findings:
 1. Users are achieving nearly 7,000 steps on average. However, there's a noticeable decline in the number of users tracking their steps, with non-trackers recording 
 significantly fewer steps.
+2. Users tend to take more steps on Tuesdays and Saturdays, with a steady level in the middle of the week.
+3. On average, the highest number of steps happens in the evening, then drops quickly afterward.
+4. There's a positive correlation between taking more steps and burning more calories.
+
+#### Sleep Findings: 
+1. Longer sleep durations correlate with increased periods of wakefulness throughout sleep cycles.
+2. Users generally receive similar amounts of sleep throughout the week, albeit varying from recommended levels to below. Sundays typically yield the most sleep, with a decline at the week's start and end.
+3. Users experience more wakefulness in bed on weekends compared to weekdays.
+4. Sleep duration varies over time but averages around 7 hours per night.
+5. Not all users consistently track sleep data nightly, indicating inconsistent sleep-tracking habits.
 
 
 

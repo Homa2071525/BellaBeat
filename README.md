@@ -24,15 +24,18 @@ What are some trends in smart device usage?
 How can these trends help influence Bellabeat's marketing strategy?
 
 ### Data Sources
-The ['FitBit Fitness Tracker Data'](https://www.kaggle.com/datasets/arashnic/fitbit) on Kaggle originated from a survey conducted on Amazon Mechanical Turk workers, collecting data from 30 participants. However, data for 33 users is available. The dataset spans April 12, 2016, to May 12, 2016, covering physical activity, sleep, weight, and step count for 33 users across 4 datasets.
+The ['FitBit Fitness Tracker Data'](https://www.kaggle.com/datasets/arashnic/fitbit) on Kaggle originated from a survey conducted on Amazon Mechanical Turk workers, collecting data from 30 participants. However, data for 33 users is available. The dataset spans April 12, 2016, to May 12, 2016, covering physical activity, sleep, weight, and step count for 33 users across 4 datasets. 
 
-### Limitations:
+### Data Limitations:
 
 - Sample size: With only 30 people, the sample may not represent all FitBit users.
 - Outdated: Data covers only two months in 2016. Current, year-long data would offer better trend analysis, especially across different seasons.
 - Limited: Lacks demographic info like gender, age, and location, crucial for targeted marketing.
 
+### Methods Used: SQL, Tableau
 
+### Data Processing, Cleaning, and Analysis 
+All data processing, cleaning, and analysis were done using SQL and are available in the Bellabeat.sql script provided in this repository. Detailed comments are included throughout, documenting the thought processes and findings.
 
 
 

@@ -38,11 +38,11 @@ The ['FitBit Fitness Tracker Data'](https://www.kaggle.com/datasets/arashnic/fit
 All data processing, cleaning, and analysis were done using SQL and are available in the Bellabeat.sql script provided in this repository. Detailed comments are included throughout, documenting the thought processes and findings.
 
 ### Summary Of Analysis:
-Activity Findings:
+#### Activity Findings:
      1. Activity is primarily at the light level, but users still meet the recommended weekly minimum of 150 minutes. A trend emerges as activity decreases toward the end of the week across all activity levels.
      2. A positive correlation exists between higher activity levels and increased calorie burn.
 
-Steps Findings:
+#### Steps Findings:
     1. Users are achieving nearly 7,000 steps on average. However, there's a noticeable decline in the number of users tracking their steps, with non-trackers recording 
     significantly fewer steps.
 

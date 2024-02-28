@@ -1,5 +1,8 @@
 /* 
-All of cleaning process
+In this project, for the cleaning process, I used Microsoft Excel and SQL to streamline the process.
+I identify and rectify irregularities such as empty spaces, duplicates, and inconsistent column lengths.
+I refine column names, eliminate redundant fields, and add supplementary columns for clarity.
+This ensures accurate and efficient data analysis.
 */
 
 --1. How many unique user Ids are in each table?
@@ -58,7 +61,7 @@ SELECT DISTINCT Id,
 FROM Bella_Project.dbo.dailyActivity_merged AS Activity_tbl
 GROUP BY Id
 ORDER BY Id
--- Saved table as dataset: ìactivity_avgs_by_idî
+-- Saved table as dataset: ‚Äúactivity_avgs_by_id‚Äù
 /* Analysis: 
 -21 of the 33 users tracked data for the full month.
 -20 got at least 7,000 steps, 7 over 10,000 steps, and 14 had below 7,000 steps. 
@@ -119,7 +122,7 @@ WHEN Day = 'Thursday' THEN 5
 WHEN Day = 'Friday' THEN 6
 WHEN Day = 'Saturday' THEN 7
      END ASC
--- Saved this table as dataset: ìavg_activity_dayî
+-- Saved this table as dataset: ‚Äúavg_activity_day‚Äù
 /* Analysis:
 -On average users are getting over 7,000 steps except on Sundays. Users are getting over 8,000 on Tuesdays and Saturdays 
 -Users are meeting the weekly recommended 150-300 minutes of activity (combination of  vigorous and moderate) at 243.44 minutes on average. 
@@ -152,7 +155,7 @@ WHEN Day = 'Friday' THEN 6
 WHEN Day = 'Saturday' THEN 7      
  END ASC*/
  ) as a*/
--- Saved this table as dataset: ìavg_sleep_by_dayî
+-- Saved this table as dataset: ‚Äúavg_sleep_by_day‚Äù
 /* Analysis: 
 -Users get the most sleep and the recommended at least 7 hours on Sundays, Wednesdays, and Saturdays. The rest of the week users get 6.7-6.9 hours of sleep.  
 -The more sleep users get the greater amount of time they spend in bed awake throughout the week with Sundays having an average 50 minutes of restless sleep. 
@@ -286,7 +289,7 @@ SELECT weight.Id, start_date, ROUND(weight_pounds,2) AS start_pounds
 FROM Bella_Project.dbo.weight_merged AS weight
 JOIN Bella_Project.dbo.start_end_weight AS start_end ON weight.Id = start_end.Id
 WHERE Date = start_date
--- Saved table as: ‚Äúweight_start_date‚Äù
+-- Saved table as: √¢‚Ç¨≈ìweight_start_date√¢‚Ç¨¬ù
 
 
 -- 15b.
@@ -406,7 +409,7 @@ ORDER BY
           WHEN Day = 'Friday' THEN 6            
           WHEN Day = 'Saturday' THEN 7          
      END ASC 
-	 -- Saved table as dataset: ìoverlap_act_avg_dayî
+	 -- Saved table as dataset: ‚Äúoverlap_act_avg_day‚Äù
 
 -- 19b. 
 -- Averaging sleep activity data for six users with data in activity, sleep, and weight
@@ -428,7 +431,7 @@ ORDER BY
           WHEN Day = 'Friday' THEN 6
           WHEN Day = 'Saturday' THEN 7
      END ASC
-     -- Saved table as dataset: ìoverlap_sleep_avg_dayî
+     -- Saved table as dataset: ‚Äúoverlap_sleep_avg_day‚Äù
 
 
 -- 19c.
@@ -465,7 +468,7 @@ FROM (
 FROM Bella_Project.dbo.avg_sleep_day
 JOIN Bella_Project.dbo.avg_activity_day ON avg_sleep_day.Day = avg_activity_day.Day) AS a
 ) AS b
--- Dataset saved as ìdaily_avg_percentsî. Placed into Excel: changed number format from decimals to percentages
+-- Dataset saved as ‚Äúdaily_avg_percents‚Äù. Placed into Excel: changed number format from decimals to percentages
 /* Analysis:
 -Most time was spent sedentary (59.1%) (16.5 hrs) and the least (.08%) performing fairly active level of activity.
 -Activity light, fair, and very combined made up 12.8% (3.79 hours) of daily time.
@@ -496,4 +499,4 @@ SELECT AVG(avg_very_min) AS avg_very_min_wk,
  -- Combining sleep data with activity level data
 JOIN Bella_Project.dbo.overlap_sleep_avg_day AS sleep ON act.day = sleep.Day ) AS c
 ) AS d
--- Saved table as dataset as: ìoverlap_weekly_act_percentsî
+-- Saved table as dataset as: ‚Äúoverlap_weekly_act_percents‚Äù

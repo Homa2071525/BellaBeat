@@ -32,7 +32,7 @@ The ['FitBit Fitness Tracker Data'](https://www.kaggle.com/datasets/arashnic/fit
 - Outdated: Data covers only two months in 2016. Current, year-long data would offer better trend analysis, especially across different seasons.
 - Limited: Lacks demographic info like gender, age, and location, crucial for targeted marketing.
 
-### Methods Used: SQL, Tableau
+### Methods Used: SQL, Excel, Tableau
 
 ### Data Processing, Cleaning, and Analysis 
 All data processing, cleaning, and analysis were done using SQL and are available in the Bellabeat.sql script provided in this repository. Detailed comments are included throughout, documenting the thought processes and findings.

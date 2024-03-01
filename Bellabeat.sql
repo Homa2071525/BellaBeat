@@ -127,7 +127,7 @@ WHEN Day = 'Saturday' THEN 7
 -On average users are getting over 7,000 steps except on Sundays. Users are getting over 8,000 on Tuesdays and Saturdays 
 -Users are meeting the weekly recommended 150-300 minutes of activity (combination of  vigorous and moderate) at 243.44 minutes on average. 
 -Users are traveling over 5 Km on average each day 
--The amount of calories burned is consistently around 2300 kcal a day with the exception of Sundays and Thursdays
+-The amount of calories burned is consistently around 2300 kcal a day except for Sundays and Thursdays
 -The most active day is Saturday with  244 minutes of combined activity (very, fairly, and light active levels), and the least is Sunday with 208 minutes 
 -The most sedentary day is Monday with 1027.9 min and the least is Thursday with 961.9 min 
 */
@@ -135,7 +135,7 @@ WHEN Day = 'Saturday' THEN 7
 
 -- 9. What days do users have the most and least sleep?
 /*SELECT *,
--- Add column for minutes asleep converted to hours
+-- Add a column for minutes asleep converted to hours
 (avg_min_asleep/60) AS avg_hour_asleep 
 FROM (
 SELECT Day, COUNT(Day) AS number_of_days,

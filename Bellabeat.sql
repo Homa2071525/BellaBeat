@@ -134,7 +134,7 @@ WHEN Day = 'Saturday' THEN 7
 
 
 -- 9. What days do users have the most and least sleep?
-/*SELECT *,
+SELECT *,
 -- Add a column for minutes asleep converted to hours
 (avg_min_asleep/60) AS avg_hour_asleep 
 FROM (
@@ -144,7 +144,7 @@ AVG(Time_Awake) AS avg_min_awake_in_bed,
 AVG(Time_Asleep) AS avg_min_asleep     
 FROM Bella_Project.dbo.sleepDay_merged   
 GROUP BY Day
-/*ORDER BY
+ORDER BY
 CASE      
 WHEN Day = 'Sunday' THEN 1      
 WHEN Day = 'Monday' THEN 2      
@@ -153,30 +153,13 @@ WHEN Day = 'Wednesday' THEN 4
 WHEN Day = 'Thursday' THEN 5      
 WHEN Day = 'Friday' THEN 6      
 WHEN Day = 'Saturday' THEN 7      
- END ASC*/
- ) as a*/
+ END ASC
+ ) as a
 -- Saved this table as dataset: “avg_sleep_by_day”
 /* Analysis: 
 -Users get the most sleep and the recommended at least 7 hours on Sundays, Wednesdays, and Saturdays. The rest of the week users get 6.7-6.9 hours of sleep.  
 -The more sleep users get the greater amount of time they spend in bed awake throughout the week with Sundays having an average 50 minutes of restless sleep. 
 */
--- sol_2, creating new temprory table(table is sorted!)
-select Day, COUNT(Day) AS number_of_days, AVG(Time_Awake) AS avg_min_awake_in_bed, AVG(Time_Asleep) AS avg_min_asleep  
- INTO avg_sleep_by_day1
- From Bella_Project.dbo.sleepDay_merged  
- GROUP BY Day
-
-SELECT * , (avg_min_asleep/60) AS avg_hour_asleep  
-from avg_sleep_by_day1
- ORDER BY CASE      
-WHEN Day = 'Sunday' THEN 1      
-WHEN Day = 'Monday' THEN 2      
-WHEN Day = 'Tuesday' THEN 3     
-WHEN Day = 'Wednesday' THEN 4     
-WHEN Day = 'Thursday' THEN 5      
-WHEN Day = 'Friday' THEN 6      
-WHEN Day = 'Saturday' THEN 7      
- END ASC
 
 
 -- 10. Combine activity and sleep data

@@ -28,9 +28,14 @@ The ['FitBit Fitness Tracker Data'](https://www.kaggle.com/datasets/arashnic/fit
 
 ### Data Limitations:
 
-- Sample size: With only 30 people, the sample may not represent all FitBit users.
-- Outdated: Data covers only two months in 2016. Current, year-long data would offer better trend analysis, especially across different seasons.
-- Limited: Lacks demographic info like gender, age, and location, crucial for targeted marketing.
+- The study involved only 33 participants who tracked information over two months, imposing significant constraints on determining trends for each tracked area of usage. To 
+  mitigate these constraints, a larger dataset is necessary.
+- The inclusion of demographic information such as sex, health/fitness goals, and height would be advantageous.
+- Understanding the participants' sex would aid in aligning the dataset with Bellabeat's target demographic.
+- Knowledge of participants' health and fitness goals would allow exploration of goal attainment or progress.
+- Height data would offer deeper insights into analyzing steps and distance totals, as individuals with varying heights possess different stride lengths, potentially 
+  influencing data interpretation.
+
 
 ### Methods Used: SQL, Excel, Tableau
 

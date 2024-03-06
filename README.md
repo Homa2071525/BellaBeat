@@ -73,7 +73,11 @@ significantly fewer steps.
    [Calorie](https://public.tableau.com/shared/WS35K443Z?:display_count=n&:origin=viz_share_link)
 
 ### Recommendations: 
-
+1.	Reach more people with Bellabeat by tailoring messages for different groups. Collaborate with diverse female influencers, like those in fitness or moms of different ages, to make messages for all women. Share on social media to tell people about Bellabeat and how to use it best.
+  
+2.	Capture a full health picture by recording sleep data. Prioritize understanding reasons for not wearing the device during sleep through focus groups or customer surveys to enhance user experience.
+  
+3.	Offer goal-setting programs for fitness and wellness. Enable users to visualize progress through accessible data. Provide attractive prizes, like a 20 % discount on membership, and let participants select competition categories to foster community and promote well-being.
 
 
 

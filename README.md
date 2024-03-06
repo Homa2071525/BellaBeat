@@ -67,9 +67,9 @@ significantly fewer steps.
 
 
 ### Tableau Dashboard/Visualization
-   [Step](https://public.tableau.com/shared/Q99CTHTBB?:display_count=n&:origin=viz_share_link)
-   [Sleep](https://public.tableau.com/shared/N5YHNPS3X?:display_count=n&:origin=viz_share_link)
-   [Activity](https://public.tableau.com/shared/TBKWJCRSY?:display_count=n&:origin=viz_share_link)
+   [Step](https://public.tableau.com/shared/Q99CTHTBB?:display_count=n&:origin=viz_share_link)  
+   [Sleep](https://public.tableau.com/shared/N5YHNPS3X?:display_count=n&:origin=viz_share_link)  
+   [Activity](https://public.tableau.com/shared/TBKWJCRSY?:display_count=n&:origin=viz_share_link)  
    [Calorie](https://public.tableau.com/shared/WS35K443Z?:display_count=n&:origin=viz_share_link)
 
 ### Recommendations: 
